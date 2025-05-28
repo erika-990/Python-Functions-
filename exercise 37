@@ -1,0 +1,3 @@
+def greatest_common_divisor(a, b):
+    return a if b == 0 else greatest_common_divisor(b, a % b)
+print(greatest_common_divisor(48, 18))
