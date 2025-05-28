@@ -1,0 +1,3 @@
+def min_max(lst):
+    return min(lst), max(lst)
+print(min_max([5,2,9,1]
