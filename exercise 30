@@ -1,0 +1,3 @@
+st = ["python", "c", "java", "javascript"]
+lst.sort(key=lambda s: len(s))
+print(lst)
