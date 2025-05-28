@@ -1,0 +1,2 @@
+t = [("a",2),("b",1)]
+print(sorted(t, key=lambda x: x[1]))
