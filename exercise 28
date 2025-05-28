@@ -1,0 +1,6 @@
+ef make_greeter(name):
+    def greeter():
+        print(f"Hello, {name}!")
+    return greeter
+g = make_greeter("Eve")
+g()
