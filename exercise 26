@@ -1,0 +1,6 @@
+# Example:
+global_var = 10
+def func():
+    local_var = 5
+    return global_var, local_var
+print(func())
