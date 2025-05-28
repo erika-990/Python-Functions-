@@ -1,0 +1,2 @@
+ratio = lambda a, b: a / b if b != 0 else None
+print(ratio(10, 2))
