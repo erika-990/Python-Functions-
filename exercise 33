@@ -1,0 +1,3 @@
+def factorial_rec(n):
+    return 1 if n == 0 else n * factorial_rec(n-1)
+print(factorial_rec(5))
