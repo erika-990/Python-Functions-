@@ -1,0 +1,4 @@
+ef greet_repeat(name, n):
+    for _ in range(n):
+        print(f"Hello, {name}!")
+greet_repeat("Bob", 3)
