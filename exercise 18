@@ -1,0 +1,6 @@
+def person_description(name, age, **kwargs):
+    desc = f"Name: {name}, Age: {age}"
+    for k, v in kwargs.items():
+        desc += f", {k}: {v}"
+    return desc
+print(person_description("Alice", 30, city="London", job="Engineer"))
