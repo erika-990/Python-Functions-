@@ -1,0 +1,12 @@
+rint(greatest_common_divisor(48, 18))
+
+# 38.
+def flatten(lst):
+    res = []
+    for el in lst:
+        if isinstance(el, list):
+            res.extend(flatten(el))
+        else:
+            res.append(el)
+    return res
+print(flatten([1, [2, [3, 4], 5], 6]))
