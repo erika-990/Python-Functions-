@@ -1,0 +1,4 @@
+def print_list(lst):
+    for el in lst:
+        print(el)
+print_list([1,2,3])
