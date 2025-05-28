@@ -1,0 +1,3 @@
+def welcome_message():
+    return "Welcome!"
+print(welcome_message())
