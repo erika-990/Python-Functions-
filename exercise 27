@@ -1,0 +1,5 @@
+def outer():
+    def inner():
+        return "Inner function"
+    return inner()
+print(outer())
