@@ -1,0 +1,7 @@
+def print_nested(lst):
+    for el in lst:
+        if isinstance(el, list):
+            print_nested(el)
+        else:
+            print(el)
+print_nested([1, [2, [3, 4], 5], 6])
